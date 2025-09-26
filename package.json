@@ -53,6 +53,7 @@
     "popper.js": "^1.16.1",
     "qs": "^6.11.2",
     "request": "^2.88.2",
+    "serverless-http": "^3.2.0",
     "soundoftext-js": "^1.0.2",
     "ssl-express-www": "^3.0.7",
     "tinyurl": "^1.1.7",
