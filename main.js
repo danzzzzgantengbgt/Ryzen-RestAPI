@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', mainrouter);
 app.use('/api', apirouter);
 
-// ❌ Jangan pakai app.listen()
-// ✅ Export sebagai handler
+// ❌ Jangan pakai app.listen(PORT)
+// ✅ Export untuk serverless
 module.exports = app;
 module.exports.handler = serverless(app);
